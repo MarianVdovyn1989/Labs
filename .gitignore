@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Lab1_OOP/v15
+/Lab1_OOP/bin/Debug/netcoreapp2.2
+/Lab1_OOP/obj
+/.vs/SimCorp.IMS.CSharpPrepCourse/v15

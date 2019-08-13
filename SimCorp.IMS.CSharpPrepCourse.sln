@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_OOP", "Lab1_OOP\Lab1_OOP.csproj", "{A04B485D-BB73-42F2-B584-F921A7F13147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone", "Lab1_OOP\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.csproj", "{A04B485D-BB73-42F2-B584-F921A7F13147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

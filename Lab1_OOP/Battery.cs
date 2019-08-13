@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Lab1_OOP
+namespace SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone
 {
     public abstract class Battery
     {
@@ -11,12 +11,11 @@ namespace Lab1_OOP
             WirelessCharge = wirelessCharge;
             FastCharge = fastCharge;
         }
-
         public abstract string GetComponentType();
 
-        int Capacity { get; set; }
-        bool WirelessCharge { get; }
-        bool FastCharge { get; }
+        public int Capacity { get; set; }
+        public bool WirelessCharge { get; set; }
+        public bool FastCharge { get; set; }
         string WirelessChargeText
         {
             get
@@ -45,57 +44,6 @@ namespace Lab1_OOP
                 }
             }
 
-        }
-        
-
-
-    }
-
-    class NickelCadmium : Battery
-    {
-        public NickelCadmium(int capacity, bool wirelessCharge, bool fastCharge):base(capacity, wirelessCharge, fastCharge)
-        {
-        }
-
-        public override string GetComponentType()
-        {
-            return "NickelCadmium";
-        }
-    }
-
-    class NiMH : Battery
-    {
-        public NiMH(int capacity, bool wirelessCharge, bool fastCharge) : base(capacity, wirelessCharge, fastCharge)
-        {
-        }
-
-        public override string GetComponentType()
-        {
-            return "NiMH";
-        }
-    }
-
-    class LithiumIon : Battery
-    {
-        public LithiumIon(int capacity, bool wirelessCharge, bool fastCharge) : base(capacity, wirelessCharge, fastCharge)
-        {
-        }
-
-        public override string GetComponentType()
-        {
-            return "LithiumIon";
-        }
-    }
-
-    class LithiumPolymer : Battery
-    {
-        public LithiumPolymer(int capacity, bool wirelessCharge, bool fastCharge) : base(capacity, wirelessCharge, fastCharge)
-        {
-        }
-
-        public override string GetComponentType()
-        {
-            return "LithiumPolymer";
         }
     }
 }

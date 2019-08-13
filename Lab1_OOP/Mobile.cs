@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Lab1_OOP
+namespace SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone
 {
     public abstract class Mobile
     {
@@ -12,24 +12,19 @@ namespace Lab1_OOP
             PlaybackComponent.Play(data);
         }
 
-        public ICharger BatteryCharge { get; set; }
+        public ICharger BatteryCharger { get; set; }
 
-        public void Charge(object data)
-        {
-            BatteryCharge.Charge(data);
-        }
-        public int GetIndex(int index)
-        {
-            var result = BatteryCharge.GetIndex(index);
-            return result;
-        }
+        public ISelectComponent SoundPlayBack { get; set; }
+
+
 
         public abstract ScreenBase Screen {get;}
         public abstract Battery Battery { get; }
+        public abstract TouchBasic Touch { get; }
 
         private void Show(IScreenImage screenImage)
         {
-            Screen.Show(screenImage);         
+            Screen.Show(screenImage, 75);         
         }
         
 
@@ -38,15 +33,10 @@ namespace Lab1_OOP
             var DescriptionBuilder = new StringBuilder();
             DescriptionBuilder.AppendLine($"{nameof(Screen)} Type: {Screen.GetComponentType()}");
             DescriptionBuilder.AppendLine($"{nameof(Battery)} Type: {Battery.GetComponentType()}");
+            DescriptionBuilder.AppendLine($"{nameof(Touch)} Type: {Touch.GetComponentType()}");
             return DescriptionBuilder.ToString();
         }
     }
 
-    public class SimCorpMobile : Mobile
-    {
-        private readonly OLEDScreen vOLEDScreen = new OLEDScreen();
-        private readonly Battery vNickelCadmium = new NickelCadmium(4200, true, false);
-        public override ScreenBase Screen { get { return vOLEDScreen; } }
-        public override Battery Battery { get { return vNickelCadmium; } }
-    }
+
 }

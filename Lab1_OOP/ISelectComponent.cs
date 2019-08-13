@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone
 {
-    public abstract class Charger:ICharger
+    public interface ISelectComponent
     {
-        public abstract string Show();
+        int SelectComponent();
     }
 }
