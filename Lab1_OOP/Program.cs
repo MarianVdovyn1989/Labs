@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimCorp.IMS.CSharpPrepCourse.Lab.MyMobile.ClassLibrary.CommandLineUserInterface;
+using System;
 
 namespace SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone
 {
@@ -6,23 +7,49 @@ namespace SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone
     {
         static void Main(string[] args)
         {
-            SimCorpMobile MyMobile = new SimCorpMobile();
+            IOutput Console;
+
+            Console = new ConsoleOutput();
+
+            SimCorpMobile MyMobile = new SimCorpMobile(Console);
 
             //LAB#1: battary and screen
-            string description = MyMobile.GetDescription();
-            MyMobile.ShowDescription(description);
+            Console.WriteLine(MyMobile.ToString());
+
 
             //LAB#2: 
-            //ICharger interface for Charger component type
-            int Index=MyMobile.ChargerFactory.SelectComponent();
+            //======================================================================
+            //Charger component type
+            //======================================================================
+            int Index;
+
+            //Ask User for index
+            Index =MyMobile.ChargerFactory.SelectComponentIndex();
+            //Create Component Class based on index
             MyMobile.BatteryCharger = MyMobile.ChargerFactory.Create(Index);
-            description = MyMobile.BatteryCharger.Show();
-            MyMobile.ShowDescription(description);
-            //ICharger interface for Charger component type
-            Index = MyMobile.PlayBackFactory.SelectComponent();
+
+            //======================================================================
+            //PlayBack component type
+            //======================================================================
+
+            //Ask User for index
+            Index = MyMobile.PlayBackFactory.SelectComponentIndex();
+            //Create Component Class based on index
             MyMobile.PlaybackComponent = MyMobile.PlayBackFactory.Create(Index);
-            MyMobile.Play("dummyObject");
-            Console.ReadLine();
+            MyMobile.Play();
+
+            //======================================================================
+            //Screen component type
+            //======================================================================
+
+            //Ask User for index
+            Index = MyMobile.Screenfactory.SelectComponentIndex(); ;
+            //Create Component Class based on index
+            MyMobile.PlaybackComponent = MyMobile.PlayBackFactory.Create(Index);
+
+
+
+            System.Console.ReadLine();
         }
 
 

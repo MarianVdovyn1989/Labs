@@ -1,0 +1,16 @@
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.csprojAssemblyReference.cache
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.csproj.CoreCompileInputs.cache
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.pdb
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Lib.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Lib.pdb
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.csproj.CopyComplete
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.Test.pdb

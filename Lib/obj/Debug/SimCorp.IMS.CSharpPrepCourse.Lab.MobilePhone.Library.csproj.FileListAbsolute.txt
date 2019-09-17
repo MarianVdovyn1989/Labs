@@ -1,0 +1,6 @@
+C:\Users\mnvn\source\repos\Labs\Lib\bin\Debug\Lib.dll
+C:\Users\mnvn\source\repos\Labs\Lib\bin\Debug\Lib.pdb
+C:\Users\mnvn\source\repos\Labs\Lib\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csprojAssemblyReference.cache
+C:\Users\mnvn\source\repos\Labs\Lib\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csproj.CoreCompileInputs.cache
+C:\Users\mnvn\source\repos\Labs\Lib\obj\Debug\Lib.dll
+C:\Users\mnvn\source\repos\Labs\Lib\obj\Debug\Lib.pdb

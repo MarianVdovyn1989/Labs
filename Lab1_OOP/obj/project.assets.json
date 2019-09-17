@@ -207,6 +207,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.dll": {}
+        }
       }
     }
   },
@@ -678,11 +687,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library/1.0.0": {
+      "type": "project",
+      "path": "../Lib/SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csproj",
+      "msbuildProject": "../Lib/SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -692,9 +707,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lab1_OOP\\Lab1_OOP.csproj",
-      "projectName": "Lab1_OOP",
-      "projectPath": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lab1_OOP\\Lab1_OOP.csproj",
+      "projectUniqueName": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lab1_OOP\\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.ConsoleApplication.csproj",
+      "projectName": "SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.ConsoleApplication",
+      "projectPath": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lab1_OOP\\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.ConsoleApplication.csproj",
       "packagesPath": "C:\\Users\\mnvn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lab1_OOP\\obj\\",
       "projectStyle": "PackageReference",
@@ -714,7 +729,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mnvn\\source\\repos\\Labs\\Lib\\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csproj": {
+              "projectPath": "C:\\Users\\mnvn\\source\\repos\\Labs\\Lib\\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

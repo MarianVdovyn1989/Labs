@@ -1,0 +1,9 @@
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.csprojAssemblyReference.cache
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.csproj.CoreCompileInputs.cache
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\bin\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\bin\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.pdb
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\bin\Debug\Lib.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\bin\Debug\Lib.pdb
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.csproj.CopyComplete
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.dll
+C:\Users\mnvn\source\repos\Labs\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone\obj\Debug\SimCorp.IMS.CSharpPrepCourse.Lab.MobilePhone.pdb

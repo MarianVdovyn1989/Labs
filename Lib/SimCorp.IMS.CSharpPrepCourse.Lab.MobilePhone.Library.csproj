@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA7BC8E7-14B5-4B46-84DF-668D2E7FF16A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lib</RootNamespace>
+    <AssemblyName>Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Batteries\BatteryBase.cs" />
+    <Compile Include="Batteries\BatteryLithiumIon.cs" />
+    <Compile Include="Batteries\BatteryLithiumPolymer.cs" />
+    <Compile Include="Batteries\BatteryNickelCadmium.cs" />
+    <Compile Include="Batteries\BatteryNiMH.cs" />
+    <Compile Include="Chargers\ChargerBase.cs" />
+    <Compile Include="Chargers\ChargerFactory.cs" />
+    <Compile Include="Chargers\ChargerWire.cs" />
+    <Compile Include="Chargers\ChargerWireless.cs" />
+    <Compile Include="Chargers\ICharger.cs" />
+    <Compile Include="ConsoleUserInterface\ConsoleOutput.cs" />
+    <Compile Include="ConsoleUserInterface\IOutput.cs" />
+    <Compile Include="Mobile.cs" />
+    <Compile Include="PlayBacks\IPlayBack.cs" />
+    <Compile Include="PlayBacks\PlayBackDummy.cs" />
+    <Compile Include="PlayBacks\PlayBackFactory.cs" />
+    <Compile Include="PlayBacks\PlayBackIPhoneHeadset.cs" />
+    <Compile Include="PlayBacks\PlayBackPhoneSpeaker.cs" />
+    <Compile Include="PlayBacks\PlayBackSamsungHeadset.cs" />
+    <Compile Include="PlayBacks\PlayBackUnofficialHeadset.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\IScreen.cs" />
+    <Compile Include="Screens\ScreenAMOLED.cs" />
+    <Compile Include="Screens\ScreenBase.cs" />
+    <Compile Include="Screens\ScreenColorful.cs" />
+    <Compile Include="Screens\ScreenFactory.cs" />
+    <Compile Include="Screens\ScreenIPS.cs" />
+    <Compile Include="Screens\ScreenMonochrome.cs" />
+    <Compile Include="SimCorpMobile.cs" />
+    <Compile Include="Touches\TouchBasic.cs" />
+    <Compile Include="Touches\TouchMulti.cs" />
+    <Compile Include="Touches\TouchSingle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
